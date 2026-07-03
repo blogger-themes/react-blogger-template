@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "lib": ["ESNext", "DOM"],
     "module": "es2020",
     "target": "es2018",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
     "moduleResolution": "bundler",
     "strict": true,
     "skipLibCheck": true,
@@ -11,8 +13,8 @@
     "noUnusedParameters": true,
     "paths": {
       "@/*": ["./src/*"]
-    },
-    "outDir": "dist"
+    }
   },
-  "include": ["src", "tsdown.config.ts"]
+  "include": ["src"],
+  "exclude": ["src/svelte"]
 }

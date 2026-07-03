@@ -2,9 +2,9 @@ import {
 	Avatar,
 	AvatarFallback,
 	AvatarImage,
-} from '@themes/ui/components/avatar';
-import { Badge } from '@themes/ui/components/badge';
-import { Separator } from '@themes/ui/components/separator';
+} from '@themes/ui/react/shadcn/avatar';
+import { Badge } from '@themes/ui/react/shadcn/badge';
+import { Separator } from '@themes/ui/react/shadcn/separator';
 import { BloggerImage } from 'blogger-images';
 import { HashIcon } from 'lucide-react';
 import { Link } from 'react-router';

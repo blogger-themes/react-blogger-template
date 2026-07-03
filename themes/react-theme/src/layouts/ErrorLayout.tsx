@@ -1,11 +1,11 @@
-import { Button } from '@themes/ui/components/button';
+import { Button } from '@themes/ui/react/shadcn/button';
 import {
 	Card,
 	CardDescription,
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from '@themes/ui/components/card';
+} from '@themes/ui/react/shadcn/card';
 import { RefreshCwIcon } from 'lucide-react';
 import { useEffect } from 'react';
 import { useNavigate, useNavigation } from 'react-router';

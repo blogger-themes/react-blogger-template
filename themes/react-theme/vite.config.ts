@@ -2,7 +2,6 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import blogger from 'blogger-plugin/vite';
 import { defineConfig } from 'vite';
-import devtoolsJson from 'vite-plugin-devtools-json';
 import * as packageJson from './package.json' with { type: 'json' };
 
 const REPOSITORY = 'blogger-themes/themes';
@@ -31,7 +30,6 @@ export default defineConfig({
 		}),
 		react(),
 		tailwindcss(),
-		devtoolsJson(),
 	],
 	resolve: {
 		tsconfigPaths: true,

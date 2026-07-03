@@ -1,12 +1,12 @@
-import { buttonVariants } from '@themes/ui/components/button';
+import { cn } from '@themes/ui/lib/utils';
+import { buttonVariants } from '@themes/ui/react/shadcn/button';
 import {
 	Card,
 	CardDescription,
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from '@themes/ui/components/card';
-import { cn } from '@themes/ui/lib/utils';
+} from '@themes/ui/react/shadcn/card';
 import { HomeIcon } from 'lucide-react';
 import { Link } from 'react-router';
 

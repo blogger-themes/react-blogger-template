@@ -1,0 +1,20 @@
+{
+  "$schema": "https://shadcn-svelte.com/schema.json",
+  "style": "nova",
+  "iconLibrary": "lucide",
+  "typescript": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/index.css",
+    "baseColor": "neutral"
+  },
+  "aliases": {
+    "components": "@/svelte",
+    "utils": "@/lib/utils",
+    "ui": "@/svelte/shadcn",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle"
+}

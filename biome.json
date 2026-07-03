@@ -6,6 +6,7 @@
       "!**/node_modules",
       "!!**/dist",
       "!!**/.output",
+      "!**/.svelte-kit",
       "!!**/.turbo",
       "!!**/.tailwind-classes.json"
     ]
@@ -21,7 +22,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "correctness": {
         "useExhaustiveDependencies": "error"
       },
@@ -64,5 +65,22 @@
     "parser": {
       "tailwindDirectives": true
     }
-  }
+  },
+  "overrides": [
+    {
+      "includes": ["**/*.svelte"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useConst": "off",
+            "useImportType": "off"
+          },
+          "correctness": {
+            "noUnusedVariables": "off",
+            "noUnusedImports": "off"
+          }
+        }
+      }
+    }
+  ]
 }

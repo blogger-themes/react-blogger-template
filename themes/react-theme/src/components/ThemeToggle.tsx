@@ -1,4 +1,4 @@
-import { Button } from '@themes/ui/components/button';
+import { Button } from '@themes/ui/react/shadcn/button';
 import {
 	DropdownMenu,
 	DropdownMenuCheckboxItem,
@@ -6,7 +6,7 @@ import {
 	DropdownMenuGroup,
 	DropdownMenuLabel,
 	DropdownMenuTrigger,
-} from '@themes/ui/components/dropdown-menu';
+} from '@themes/ui/react/shadcn/dropdown-menu';
 import { MonitorIcon, Moon, MoonStarIcon, Sun, SunIcon } from 'lucide-react';
 import { type MouseEvent, useRef } from 'react';
 import { useStore } from 'zustand/react';

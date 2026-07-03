@@ -7,16 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules/
-dist/
-dist-ssr/
-.output/
+# Local configuration
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
+.zed/*
+!.zed/settings.json
 .idea/*
 .DS_Store
 *.suo
@@ -25,8 +24,19 @@ dist-ssr/
 *.sln
 *.sw?
 
-# turbo
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+.output/
+.svelte-kit/
+
+# Cache
 .turbo/
 
-# blogger-plugin tailwind
+# Generated project files
 .tailwind-classes.json
+/packages/ui/components.json

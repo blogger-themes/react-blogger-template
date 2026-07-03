@@ -18,13 +18,13 @@ import {
 	SiVuedotjs,
 	SiYaml,
 } from '@icons-pack/react-simple-icons';
-import { buttonVariants } from '@themes/ui/components/button';
+import { cn } from '@themes/ui/lib/utils';
+import { buttonVariants } from '@themes/ui/react/shadcn/button';
 import {
 	Tooltip,
 	TooltipContent,
 	TooltipTrigger,
-} from '@themes/ui/components/tooltip';
-import { cn } from '@themes/ui/lib/utils';
+} from '@themes/ui/react/shadcn/tooltip';
 import {
 	CheckIcon,
 	ClipboardIcon,

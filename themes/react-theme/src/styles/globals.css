@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import "shadcn/tailwind.css";
 @import "@themes/ui";
 @import "@fontsource-variable/inclusive-sans";
 @import "@fontsource-variable/jetbrains-mono";

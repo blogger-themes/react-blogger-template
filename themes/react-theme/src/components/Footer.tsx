@@ -1,11 +1,11 @@
 import { SiGithub } from '@icons-pack/react-simple-icons';
-import { Button } from '@themes/ui/components/button';
-import { Separator } from '@themes/ui/components/separator';
+import { Button } from '@themes/ui/react/shadcn/button';
+import { Separator } from '@themes/ui/react/shadcn/separator';
 import {
 	Tooltip,
 	TooltipContent,
 	TooltipTrigger,
-} from '@themes/ui/components/tooltip';
+} from '@themes/ui/react/shadcn/tooltip';
 import { MailIcon } from 'lucide-react';
 
 export default function Footer() {

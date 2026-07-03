@@ -1,13 +1,13 @@
 {
   "name": "@themes/shiki",
   "version": "0.0.0",
+  "private": true,
   "license": "MIT",
   "author": {
     "name": "Deo Kumar",
     "email": "deo@fineshopdesign.com",
     "url": "https://github.com/kumardeo"
   },
-  "private": true,
   "sideEffects": false,
   "type": "module",
   "files": [
@@ -35,12 +35,12 @@
   },
   "dependencies": {
     "@deox/worker-rpc": "^0.0.21",
-    "@shikijs/langs": "^4.1.0",
-    "@shikijs/themes": "^4.1.0",
-    "@shikijs/transformers": "^4.1.0",
+    "@shikijs/langs": "^4.3.0",
+    "@shikijs/themes": "^4.3.0",
+    "@shikijs/transformers": "^4.3.0",
     "@themes/utils": "workspace:*",
-    "shiki": "^4.1.0",
-    "style-to-js": "^2.0.0"
+    "shiki": "^4.3.0",
+    "style-to-js": "^2.0.1"
   },
   "devDependencies": {
     "tsdown": "catalog:"

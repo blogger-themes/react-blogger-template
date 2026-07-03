@@ -1,3 +1,4 @@
+import { cn } from '@themes/ui/lib/utils';
 import {
 	Breadcrumb,
 	BreadcrumbItem,
@@ -5,8 +6,7 @@ import {
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from '@themes/ui/components/breadcrumb';
-import { cn } from '@themes/ui/lib/utils';
+} from '@themes/ui/react/shadcn/breadcrumb';
 import { HomeIcon } from 'lucide-react';
 import { type ComponentType, Fragment, type SVGProps } from 'react';
 import { Link } from 'react-router';

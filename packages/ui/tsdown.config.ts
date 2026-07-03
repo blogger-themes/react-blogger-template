@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsdown';
 
 export default defineConfig((_) => ({
-	entry: ['src/**/*.{ts,js,tsx,jsx}'],
+	entry: ['src/**/*.{ts,js,tsx,jsx}', '!src/svelte/**/*'],
 	platform: 'neutral',
 	target: 'es2018',
 	sourcemap: true,
@@ -9,6 +9,7 @@ export default defineConfig((_) => ({
 	deps: {
 		skipNodeModulesBundle: true,
 	},
+	tsconfig: 'tsconfig.app.json',
 	dts: true,
 	clean: true,
 	copy: ['src/styles'],

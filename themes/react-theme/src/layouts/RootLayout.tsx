@@ -1,4 +1,4 @@
-import { TooltipProvider } from '@themes/ui/components/tooltip';
+import { TooltipProvider } from '@themes/ui/react/shadcn/tooltip';
 import { LoaderCircle } from 'lucide-react';
 import type { PropsWithChildren } from 'react';
 import { ScrollRestoration, useNavigation } from 'react-router';
